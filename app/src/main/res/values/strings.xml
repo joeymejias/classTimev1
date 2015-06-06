@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Hello</string>
 
-    <string name="hello_world">Click the button to find out!</string>
+    <string name="hello_world">Press the button to find out!</string>
+    <string name="class_over">Class is over! Class starts again at </string>
+    <string name="class_not_over">You are in class!</string>
     <string name="action_settings">Settings</string>
     <string name="button">IS CLASS OVER YET?</string>
 </resources>
