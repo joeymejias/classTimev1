@@ -2,13 +2,19 @@ package com.joeymejias.hello;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import java.text.DateFormat;
+import java.util.Date;
+
 
 public class MainActivity extends ActionBarActivity {
+
+    Date date = new Date();	//current date and time
+    DateFormat dateFormat = DateFormat.getTimeInstance();
+    String t = dateFormat.format(date);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +23,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void showTime(View v) {
-        Toast toast = Toast.makeText(this, "The time is %s.", Toast.LENGTH_LONG);
+        Toast toast = Toast.makeText(this, "The time is " + t + ".", Toast.LENGTH_LONG);
         toast.show();
     }
 

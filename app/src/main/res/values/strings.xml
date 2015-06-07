@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hello</string>
+    <string name="app_name">Class Time</string>
 
     <string name="hello_world">Press the button to find out!</string>
     <string name="class_over">Class is over! Class starts again at </string>
